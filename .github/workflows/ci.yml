@@ -18,7 +18,7 @@ jobs:
 
       - name: Check if file exists
         run: |
-          if [ -f "./path/to/file.txt" ]; then
+          if [ -f "./index.html" ]; then
             echo "File exists"
           else
             echo "File does NOT exist"
